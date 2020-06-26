@@ -15,7 +15,7 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .card-columns .card {border: none; border-radius: unset; margin-bottom: 3rem;}
 .card-img, .card-img-top {border-top-left-radius: unset; border-top-right-radius: unset;}
 .card-body {padding: 1.5rem 0;}
-.card-columns {column-count: 3; column-gap: 2rem;}
+.card-columns {column-gap: 2rem;}
 
 /**************** header *****************/
 .header {color: #222;}
