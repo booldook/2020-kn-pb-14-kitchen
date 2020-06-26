@@ -9,6 +9,7 @@ font-family: 'Open Sans', sans-serif;
 html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .wrapper {max-width: 1800px; padding: 0 25px; margin: auto;}
 .wrapper-sm {max-width: 1300px; margin: auto;}
+.font-os {font-family: 'Open Sans', sans-serif; letter-spacing: 0.25em; font-size: 0.75rem;}
 
 /**************** header *****************/
 .header {color: #222;}
@@ -21,8 +22,10 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 
 /**************** main-wrapper *****************/
 .main-wrapper > div {background-repeat: no-repeat; background-position: center; background-size: cover;}
-.main-wrapper .slogan-wrap {flex: 35% 0 0; background-image: url(../img/background-1.jpg);}
+.main-wrapper .slogan-wrap {flex: 35% 0 0; padding: 10% 5%; background-image: url(../img/background-1.jpg);}
 .main-wrapper .banner {flex: 65% 0 0; background-image: url(../img/background-2.jpg);}
+.main-wrapper .title {font-size: 4.5rem;}
+.main-wrapper .cont {font-size: 1.25rem; color: #888;}
 
 
 /**************** footer *****************/
@@ -31,6 +34,8 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 /**************** 반응형 *****************/
 @media screen and (max-width: 991px) {
 	.logo {left: 50%; transform: translateX(-50%);}
+	.main-wrapper .slogan-wrap {padding: 10% 15%;}
+	.main-wrapper .banner {height: 500px;}
 }
 
 @media screen and (max-width: 767px) {
