@@ -7,12 +7,27 @@ font-family: 'Open Sans', sans-serif;
 
 /**************** 공통사항 *****************/
 html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
-.wrapper {max-width: 1750px; margin: auto;}
+.wrapper {max-width: 1800px; padding: 0 25px; margin: auto;}
 .wrapper-sm {max-width: 1300px; margin: auto;}
 
 /**************** header *****************/
 .header {color: #222;}
-.header .navi-wrap {font-size: 1.25rem; font-weight: 600;}
+.header .navi {font-size: 1.25rem; font-weight: 600;}
 .header .sns-wrap {font-size: 1rem;}
+.header .mo-wrap {display: none;}
 
 /**************** footer *****************/
+
+
+/**************** 반응형 *****************/
+@media screen and (max-width: 991px) {
+	.logo {left: 50%; transform: translateX(-50%);}
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
