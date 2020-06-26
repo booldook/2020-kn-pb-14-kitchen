@@ -1,7 +1,18 @@
-/**************** 공통사항 *****************/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
 
+/* 
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+/**************** 공통사항 *****************/
+html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
+.wrapper {max-width: 1750px; margin: auto;}
+.wrapper-sm {max-width: 1300px; margin: auto;}
 
 /**************** header *****************/
-
+.header {color: #222;}
+.header .navi-wrap {font-size: 1.25rem; font-weight: 600;}
+.header .sns-wrap {font-size: 1rem;}
 
 /**************** footer *****************/
