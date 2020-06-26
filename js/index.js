@@ -9,8 +9,11 @@
 /**************** 이벤트 콜백 *****************/
 function onResize() {
 	var wid = $(this).innerWidth();
-	if(wid > 991) {
 
+	$(".mo-wrap").hide();
+	
+	if(wid > 991) {
+	
 	}
 	else if(wid > 767) {
 
@@ -19,7 +22,7 @@ function onResize() {
 
 	}
 	else {
-		
+
 	}
 }
 
