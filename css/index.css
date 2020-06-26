@@ -8,7 +8,7 @@ font-family: 'Open Sans', sans-serif;
 /**************** 공통사항 *****************/
 html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .wrapper {max-width: 1800px; padding: 0 25px; margin: auto;}
-.wrapper-sm {max-width: 1300px; margin: auto;}
+.wrapper-sm {max-width: 1300px; margin: 100px auto;}
 .font-os {font-family: 'Open Sans', sans-serif; letter-spacing: 0.25em; font-size: 0.75rem;}
 
 /**************** header *****************/
@@ -27,6 +27,16 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .main-wrapper .title {font-size: 4.5rem;}
 .main-wrapper .cont {font-size: 1.25rem; color: #888;}
 
+/**************** link-wrapper *****************/
+.link-wrapper .link {flex: 31% 0 0; padding: 5rem 3rem;}
+.link-wrapper .link .title {font-size: 2.5rem;}
+.link-wrapper .link .cont {color: #888; font-size: 1.25rem;}
+.link-wrapper .link:nth-child(1) {background-color: #f7f7f4;}
+.link-wrapper .link:nth-child(2) {background-color: #f2f2f6;}
+.link-wrapper .link:nth-child(3) {background-color: #faf2ef;}
+.link-wrapper .banner {font-size: 4.5rem; background: url(../img/background-3.jpg) no-repeat center; background-size: cover;}
+
+
 
 /**************** footer *****************/
 
@@ -39,9 +49,9 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 }
 
 @media screen and (max-width: 767px) {
-
+	.link-wrapper .banner {font-size: 2.5rem;}
 }
 
 @media screen and (max-width: 575px) {
-
+	.link-wrapper .banner {font-size: 1.75rem;}
 }
