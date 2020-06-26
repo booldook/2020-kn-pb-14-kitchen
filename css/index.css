@@ -10,6 +10,8 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .wrapper {max-width: 1800px; padding: 0 25px; margin: auto;}
 .wrapper-sm {max-width: 1300px; margin: 100px auto;}
 .font-os {font-family: 'Open Sans', sans-serif; letter-spacing: 0.25em; font-size: 0.75rem;}
+.title-sub {font-size: 0.75rem; margin-bottom: -0.75rem;}
+.title-cont {color: #888; font-size: 1.25rem;}
 
 /**************** header *****************/
 .header {color: #222;}
@@ -25,18 +27,17 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .main-wrapper .slogan-wrap {flex: 35% 0 0; padding: 10% 5%; background-image: url(../img/background-1.jpg);}
 .main-wrapper .banner {flex: 65% 0 0; background-image: url(../img/background-2.jpg);}
 .main-wrapper .title {font-size: 4.5rem;}
-.main-wrapper .cont {font-size: 1.25rem; color: #888;}
 
 /**************** link-wrapper *****************/
 .link-wrapper .link {flex: 31% 0 0; padding: 5rem 3rem;}
 .link-wrapper .link .title {font-size: 2.5rem;}
-.link-wrapper .link .cont {color: #888; font-size: 1.25rem;}
 .link-wrapper .link:nth-child(1) {background-color: #f7f7f4;}
 .link-wrapper .link:nth-child(2) {background-color: #f2f2f6;}
 .link-wrapper .link:nth-child(3) {background-color: #faf2ef;}
 .link-wrapper .banner {font-size: 4.5rem; background: url(../img/background-3.jpg) no-repeat center; background-size: cover;}
 
-
+/**************** post-wrapper *****************/
+.post-wrapper > .title {font-size: 4rem;}
 
 /**************** footer *****************/
 
