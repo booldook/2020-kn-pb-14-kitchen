@@ -12,6 +12,10 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .font-os {font-family: 'Open Sans', sans-serif; letter-spacing: 0.25em; font-size: 0.75rem;}
 .title-sub {font-size: 0.75rem; margin-bottom: -0.75rem;}
 .title-cont {color: #888; font-size: 1.25rem;}
+.card-columns .card {border: none; border-radius: unset; margin-bottom: 3rem;}
+.card-img, .card-img-top {border-top-left-radius: unset; border-top-right-radius: unset;}
+.card-body {padding: 1.5rem 0;}
+.card-columns {column-count: 3; column-gap: 2rem;}
 
 /**************** header *****************/
 .header {color: #222;}
@@ -38,6 +42,15 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 
 /**************** post-wrapper *****************/
 .post-wrapper > .title {font-size: 4rem;}
+
+
+/**************** blog-wrapper *****************/
+.blog-wrapper {background: url(../img/background-4.jpg) no-repeat center; background-size: cover;}
+.blog-wrapper .title-wrap {padding: 5%;}
+.blog-wrapper .titles {flex: 40% 0 0; color: #fff;}
+.blog-wrapper .titles .title {font-size: 6rem; line-height:6rem;}
+.blog-wrapper .signature { flex: 40% 0 0;}
+
 
 /**************** footer *****************/
 
