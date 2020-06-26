@@ -19,6 +19,12 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 .header .sns-wrap {font-size: 1rem;}
 .header .mo-wrap {display: flex; flex-direction: column; align-items: flex-start;}
 
+/**************** main-wrapper *****************/
+.main-wrapper > div {background-repeat: no-repeat; background-position: center; background-size: cover;}
+.main-wrapper .slogan-wrap {flex: 35% 0 0; background-image: url(../img/background-1.jpg);}
+.main-wrapper .banner {flex: 65% 0 0; background-image: url(../img/background-2.jpg);}
+
+
 /**************** footer *****************/
 
 
