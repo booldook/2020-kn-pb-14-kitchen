@@ -45,8 +45,7 @@ html, body {height: 10000px; font-family: 'Cormorant Garamond', serif;}
 
 
 /**************** blog-wrapper *****************/
-.blog-wrapper {background: url(../img/background-4.jpg) no-repeat center; background-size: cover;}
-.blog-wrapper .title-wrap {padding: 5%;}
+.blog-wrapper .title-wrap {padding: 5%; background: url(../img/background-4.jpg) no-repeat center; background-size: cover;}
 .blog-wrapper .titles {flex: 40% 0 0; color: #fff;}
 .blog-wrapper .titles .title {font-size: 6rem; line-height:6rem;}
 .blog-wrapper .signature { flex: 40% 0 0;}
